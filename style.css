@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap'); /*Fonte importada do google font*/
+h1{
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block; 
+}
+.imagem {
+    position: relative;
+    display: inline-block; /* Para ajustar o tamanho do container à imagem */
+}
+
+img {
+    width: 400px;
+    height: 400px; 
+    border: 50px dashed black; /* Borda superior */
+    padding: 10px;
+
+
+    border: 10px solid black; /* Borda preta ao redor da imagem */
+    border-top: 10px solid red; /* Borda vermelha na parte superior */
+    border-right: 10px solid rgb(244, 5, 244); /* Borda verde na direita */
+    border-bottom: 10px solid rgb(255, 234, 0); /* Borda azul na parte inferior */
+    border-left: 10px solid rgb(255, 77, 0); /* Borda laranja na esquerda */
+    border-radius: 10%; /* Arredondamento */
+
+    padding: 10px; /* Espaçamento interno para a imagem */
+    outline-width: 5px;
+    outline-color: rgb(45, 45, 50);
+    outline-style: outset;
+}
+
+.texto {
+    position: absolute;
+    color: rgb(1, 73, 49);
+    font-size: 20px;
+    font-family: 'Nosifer', sans-serif;
+    bottom: 50%; /* Define a posição vertical no centro da imagem */
+    left: 50%; /* Define a posição horizontal no centro da imagem */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno para a caixa de texto */
+    z-index: 1; /* Garante que o texto esteja sobre a imagem */
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block; 
+}
